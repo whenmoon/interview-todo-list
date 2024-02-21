@@ -1,30 +1,23 @@
-# React + TypeScript + Vite
+# TODO List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a Vite+React project built using the default template from the Vite website.
 
-Currently, two official plugins are available:
+We will build the TODO list application together during the interview. Use of Copilot and similar tooling is not allowed.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The purpose of the exercise is to pair and code something within the time limit, not finding the most performant solution, or judging your code structure and naming conventions.
 
-## Expanding the ESLint configuration
+## What we will be building
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+A basic TODO list app with these basic requirements:
 
-- Configure the top-level `parserOptions` property like this:
+- It should show a list of tasks.
+- Each task in the list should display a text (the actual task to do), and an status (pending or done).
+- User should be able to toggle the status of each task.
+- User should be able to edit the text of each task.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Not a requirement, but would be nice if we could use some of the tools in our current stack. For example:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Redux or React Contexts for state management.
+- CSS Modules for styling components.
+- Maybe you have some experience with Material UI? we can add it during the interview.
+- Vitest for testing.
