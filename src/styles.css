@@ -1,0 +1,27 @@
+.add-todo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 600px;
+  height: 150px;
+}
+
+.list-item {
+  color: green;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 80px;
+  width: 400px;
+  gap: 20px
+}
+
+;
+
+.select {
+  width: 100px;
+  color: green
+}
